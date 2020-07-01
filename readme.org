@@ -40,10 +40,10 @@ Visit [[https://github.com/vednoc/dark-whatsapp/wiki/Configuration][configuratio
 ** Installation
 You have to install [[https://add0n.com/stylus.html][Stylus]] and then click on the install link below.
 
-[[https://raw.githubusercontent.com/vednoc/dark-whatsapp/master/wa.user.styl][https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg]]
+[[https://raw.githubusercontent.com/null2264/dark-whatsapp-zi/master/wa.user.styl][https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg]]
 
 *** Other ways to install this userstyle
-See [[https://github.com/vednoc/dark-whatsapp/wiki/Installation][installation page]].
+See [[https://github.com/null2264/dark-whatsapp-zi/wiki/Installation][installation page]].
 
 ** Getting Started
 If you have a question, make sure to check [[https://github.com/vednoc/dark-whatsapp/wiki/FAQ][FAQ page]] first in order to see if has
