@@ -1,6 +1,12 @@
 #+STARTUP: nofold
 
 * Changelog
+** 2.15.1 [2020-07-01 Wed]
+Small fixes
+
+*** Fixed
+- Background color for search and chat input
+
 ** 2.15.0 [2020-06-25 Thu]
 Porting more features, fixing more bugs, and improving more things.
 
