@@ -6,7 +6,7 @@
 @supportURL   https://github.com/vednoc/dark-whatsapp/issues
 @updateURL    https://raw.githubusercontent.com/null2264/dark-whatsapp/master/wa.user.styl
 @author       vednoc <vednoc@pm.me> (https://github.com/vednoc)
-@version      2.15.0
+@version      2.15.1
 @license      MIT
 @preprocessor stylus
 
@@ -480,6 +480,8 @@ ac5 = var(--ac-5)
         --compose-border-focused-rgb: var(--bg-5-rgb) //39,70,86;
         --compose-panel-background: var(--bg-3) //#222e35;
         --compose-panel-background-rgb: var(--bg-3-rgb) //34,46,53;
+        --compose-input-background: var(--bg-1) //#101d24;
+        --compose-input-border: var(--bg-5) //#2f3437;
         --compose-primary: var(--fg-1) //#f1f1f2;
         --compose-primary-rgb: var(--fg-1-rgb) //241,241,242;
         --conversation-panel-background: var(--bg-1) //#0b1419;
@@ -676,6 +678,7 @@ ac5 = var(--ac-5)
         --quick-action-button-background-rgb: var(--bg-4-rgb) //8,14,18;
         --rich-text-panel-background: var(--bg-3) //#1c282f;
         --rich-text-panel-background-rgb: var(--bg-3-rgb) //28,40,47;
+        --search-container-background: var(--bg-2) //#162026;
         --search-input-background: var(--bg-3) //#2a2f32;
         --search-input-background-rgb: var(--bg-3-rgb) //41.6,47.46667,50.4;
         --secondary: var(--fg-3) //#f1f1f299;
@@ -2842,9 +2845,7 @@ ac5 = var(--ac-5)
             c: ac 0 t;
             box-shadow: 0 1px bd;
         }
-        #side div[tabindex="-1"] {
-            background-color: var(--background-default-rgb);
-        }
+        
         /// Feat -> Blur contacts.
         if ( chat_b_c == 1 ) {
             [style *= 'height'] > div > div[class] {
