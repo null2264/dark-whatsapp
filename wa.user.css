@@ -1,21 +1,21 @@
 /* ==UserStyle==
-@name         Dark-WhatsApp Lite
-@description  Non-customizable version of Dark-WhatsApp.
-@namespace    github.com/vednoc/dark-whatsapp
-@homepageURL  https://github.com/vednoc/dark-whatsapp
-@supportURL   https://github.com/vednoc/dark-whatsapp/issues
-@updateURL    https://raw.githubusercontent.com/vednoc/dark-whatsapp/master/wa.user.css
+@name         Dark-WhatsApp-zi Lite
+@description  A fork for Vednoc's Dark-WhatsApp with early fixes.
+@namespace    github.com/null2264/dark-whatsapp
+@homepageURL  https://github.com/null2264/dark-whatsapp-zi
+@supportURL   https://github.com/null2264/dark-whatsapp-zi/issues
+@updateURL    https://raw.githubusercontent.com/null2264/dark-whatsapp-zi/master/wa.user.css
 @author       vednoc <vednoc@pm.me> (https://github.com/vednoc)
-@version      2.15.0
+@version      2.15.1
 @license      MIT
 ==/UserStyle== */
 
 @-moz-document domain('web.whatsapp.com') {
   :root:not(#z),
   .dark:not(#z) {
-    --version: 'Dark-WhatsApp Lite 2.15.0 — June 25th, 2020';
+    --version: 'Dark-WhatsApp 2.15.1 — July 1st, 2020';
     --message: 'Towards v3 of DWA! Porting more features, and improving more things; check the changelog to see what is new!';
-    --changes: '\A\A https://github.com/vednoc/dark-whatsapp';
+    --changes: '\A\A https://github.com/null2264/dark-whatsapp-zi';
     --ui-font: 'font_name', Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif !important;
     --r-menus: 4px;
     --r-inputs: 24px;
@@ -175,6 +175,8 @@
     --compose-border-rgb: var(--bg-5-rgb);
     --compose-border-focused: var(--bg-5);
     --compose-border-focused-rgb: var(--bg-5-rgb);
+    --compose-input-background: var(--bg-1);
+    --compose-input-border: var(--bg-5);
     --compose-panel-background: var(--bg-3);
     --compose-panel-background-rgb: var(--bg-3-rgb);
     --compose-primary: var(--fg-1);
@@ -373,6 +375,7 @@
     --quick-action-button-background-rgb: var(--bg-4-rgb);
     --rich-text-panel-background: var(--bg-3);
     --rich-text-panel-background-rgb: var(--bg-3-rgb);
+    --search-container-background: var(--bg-2);
     --search-input-background: var(--bg-3);
     --search-input-background-rgb: var(--bg-3-rgb);
     --secondary: var(--fg-3);
